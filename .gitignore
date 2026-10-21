@@ -1,0 +1,15 @@
+# data and weights are not tracked
+data/
+checkpoints/
+cache/
+fonts/
+*.zip
+
+# notebook duplicates kept outside the repo
+train_upload.ipynb
+*_已执行.ipynb
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc

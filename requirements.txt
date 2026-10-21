@@ -1,0 +1,11 @@
+# 云 GPU 环境请按 CUDA 版本安装 torch/torchvision（参考 pytorch.org）
+# 本地流程调通用 CPU 版即可：pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0
+torchvision>=0.15
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+xgboost
+Pillow==10.4.0  # Windows + torch2.x 下 Pillow>=11 会导致 torchvision 导入 DLL 报错；云环境可放宽
